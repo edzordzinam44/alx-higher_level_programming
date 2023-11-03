@@ -1,1 +1,0 @@
-print("printing is a monogenius thng")
