@@ -1,5 +1,5 @@
-print("Print the mean word")
-
+print("Print the mean word.\nI have hope.\n")
+print("I'm now learning python")
 my_list = [1, 2, 3, 4, 5]
 other_list = [7, 8, 9]
 my_list.remove(3)
@@ -25,4 +25,9 @@ print("a={:d} _ b={:d}".format(a, b))
 def delete_at(my_list=[], idx=0):
     if 0 <= idx < len(my_list):
         del(my_list)[idx]
-        return(my_list)
+        return("my_list" )
+
+result = [99, 88, 77, 10]
+result = (1 + 2) * 3
+print(result)  # Output: 9
+
