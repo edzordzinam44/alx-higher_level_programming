@@ -1,6 +1,6 @@
 #   Python - Classes and Objects
 #   General
-   Why Python programming is awesome
+    Why Python programming is awesome
     What is OOP
     “first-class everything”
     What is a class
@@ -20,4 +20,4 @@
     What is the __dict__ of a class and/or instance of a class and what does it contain
     How does Python find the attributes of an object or class
     How to use the getattr function
-#   Happy coding 
+#   Happy coding \t Code wiht purpose
