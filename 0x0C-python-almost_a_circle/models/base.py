@@ -1,7 +1,6 @@
-#!/bin/usr/python3
-"""
-This module will serve as a conttainer for all the base of other classes
-"""
+#!/usr/bin/python3
+"""This module contains a class to serve as base for other classes"""
+
 
 import csv
 import json
@@ -10,13 +9,15 @@ import turtle
 
 
 class Base:
-    """Base classes for all bases created """
+    """Represents base of all classes created """
+
     __nb_objects = 0
 
-    def __ini__(self, id=None):
-        if id is  not None:#If id is provided, assign it
+    def __init__(self, id=None):
+        """ """
+        if id is not None:
             self.id = id
-        else:# Generate a new id
+        else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
