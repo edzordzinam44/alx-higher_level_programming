@@ -11,4 +11,4 @@ const Rectangle = class {
 	}
 };
 
-modules.exports = Rectangle;
+module.exports = Rectangle;
