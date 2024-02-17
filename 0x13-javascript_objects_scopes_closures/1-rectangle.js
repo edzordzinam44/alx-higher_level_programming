@@ -2,6 +2,7 @@
 
 /**
  * Class Rectangle that defines a rectangle
+ *
  */
 
 const Rectangle = class {
