@@ -10,5 +10,4 @@ const Rectangle = class {
 		this.height = h;
 	}
 };
-
 module.exports = Rectangle;
