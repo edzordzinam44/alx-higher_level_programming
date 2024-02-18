@@ -1,23 +1,17 @@
-#!/usr/bin/node
+#!/usr/bin/node 
 
-const Rectagle = class {
+const Rectangle = class {
 	constructor (w, h) {
-		if (typeof w === 'integer' && w > 0 && typeof h === 'integer' && h > 0) {
+		if (w > 0 && h > 0) {
 			this.width = w;
 			this.height = h;
 		}
 	}
 
 	print () {
-		for (let i = 0; i < this.height; i++) {
-			let myNum = '';
-			let y = 0;
-			while (y < this.width) {
-				myNum += 'X';
-				y++;
-			}
-
-			console.log(myNum);
+		while (this.height > 0) {
+			console.log('X'.repeat(this.width));
+			this.height--;
 		}
 	}
 };
