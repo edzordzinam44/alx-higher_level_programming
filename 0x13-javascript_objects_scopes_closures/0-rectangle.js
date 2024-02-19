@@ -1,10 +1,7 @@
 #!/usr/bin/node
-
 /**
- *
- * A class that defines a Rectangle
+ * Represents a rectangle
  */
-
-const Rectangle = class {};
+class Rectangle {}
 
 module.exports = Rectangle;
