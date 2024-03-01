@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Sorts out a peak in an unsorted list of integers
+""" Sorts out a peak in an unsorted list of integers
 """
 
 def find_peak(list_of_integers):
@@ -24,3 +23,4 @@ def find_peak(list_of_integers):
         mid = mid - mid_e // 2
     else:
         return list_of_integers[mid]
+
